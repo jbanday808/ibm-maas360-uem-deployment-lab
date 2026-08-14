@@ -1,0 +1,37 @@
+# Sensitive lab documents
+*.docx
+*.pdf
+*.txt.bak
+
+# Certificates and private keys
+*.pem
+*.p12
+*.pfx
+*.key
+*.cer
+*.crt
+*.mobileconfig
+
+# Environment / secrets
+.env
+.env.*
+secrets/
+credentials/
+
+# Exported administrative data
+*.csv
+*.xlsx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# VS Code
+.vscode/
+
+# Windows/macOS metadata
+Thumbs.db
+desktop.ini
+.DS_Store

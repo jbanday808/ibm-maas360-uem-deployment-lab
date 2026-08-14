@@ -1,0 +1,35 @@
+name: Project Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Verify required files
+        run: |
+          test -f README.md
+          test -f docs/windows-enrollment.md
+          test -f docs/windows-security-baseline.md
+          test -f docs/compliance-management.md
+          test -f docs/android-enterprise.md
+          test -f docs/iOS-device.md
+          test -f docs/troubleshooting.md
+          test -f docs/lessons-learned.md
+
+      - name: Verify image directory
+        run: |
+          test -d images
+          test "$(find images -type f -name '*.png' | wc -l)" -ge 20
+
+      - name: Project validation complete
+        run: echo "IBM MaaS360 project structure validated successfully."
