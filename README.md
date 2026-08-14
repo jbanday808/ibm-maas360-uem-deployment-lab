@@ -89,3 +89,14 @@ This is a personal, isolated lab created for learning and portfolio demonstratio
 
 IBM, MaaS360, Cisco, AnyConnect, Android, iOS, Windows, BitLocker, and Windows Defender are trademarks of their respective owners. This project is not affiliated with or endorsed by those companies.
 
+Author
+James Banday
+Cloud | DevOps | Cybersecurity | Multi-Cloud Engineering
+
+LinkedIn:
+https://www.linkedin.com/in/james-allen-morta-banday-62a391128/
+
+GitHub Repository:
+https://github.com/jbanday808/multi-cloud-cicd
+
+This project demonstrates hands-on experience with GitHub Actions, Docker, Terraform, AWS, Azure, Kubernetes, security scanning, OIDC authentication, and multi-cloud CI/CD automation.
