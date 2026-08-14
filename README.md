@@ -1,7 +1,5 @@
 # IBM MaaS360 UEM Deployment & Security Lab
 
-> A hands-on endpoint management lab covering Windows 11 security, device compliance, Android Enterprise, and managed VPN delivery for iOS.
-
 ![IBM MaaS360 lab architecture](images/IBM-MaaS360-diagram.png)
 
 ## What is IBM MaaS360?
